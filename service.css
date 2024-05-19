@@ -7,9 +7,9 @@
 }
 
 /* General Styling */
-html {
+/* html {
   font-size: 72.5%;
-}
+} */
 
 body {
   background: #f1f1f1; /* Light background color */
@@ -21,6 +21,23 @@ body {
   margin: 0 auto;
 }
 
+#navbar ul {
+    display: flex;
+    font-family: "Bree Serif", serif;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+/* 
 ul {
   margin-left: 3rem;
 }
@@ -40,14 +57,14 @@ ul li::after {
   height: 1.2rem;
   top: 5px;
   left: -2rem;
-}
+} */
 
 .pipe {
   padding: 0 1rem;
 }
 
 .bold {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .cards {
@@ -99,7 +116,7 @@ ul li::after {
 
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin-bottom: 2.8rem;
   border-bottom: 2px solid rgba(var(--text-color), 0.5);
   padding-bottom: 2.5rem;
@@ -130,33 +147,13 @@ h3 {
 
 
 /* Navigation */
-#navbar {
-    background-color: #F2C4D8;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
+
 
 #logo img {
     height: 50px; /* Adjust height as needed */
 }
 
-#navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-#navbar ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-#navbar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem; /* Responsive font size */
-}
 
 /* Responsive Navigation */
 @media screen and (max-width: 768px) {
@@ -213,7 +210,7 @@ h3 {
 }
 
 .service-card i {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #F1999B; /* Change color for icon */
 }
@@ -242,6 +239,7 @@ button {
   transition: all 0.3s ease-in-out;
   z-index: 1;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 button::before {
@@ -278,13 +276,7 @@ button:hover::before {
     }
 }
 
-footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 5vw 0; /* Responsive padding */
-    margin-top: 5vw; /* Responsive margin */
-}
+
 
 footer p {
     font-size: 1.2vw; /* Responsive font size */
