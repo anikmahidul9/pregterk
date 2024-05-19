@@ -13,7 +13,7 @@ h2 {
 }
 
 .intro h2 {
-    color: #ff6600; /* Change color for mission title */
+    color: #F1999B; /* Change color for mission title */
 }
 
 .services {
@@ -35,7 +35,7 @@ h2 {
 .service-card i {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #ff6600; /* Change color for icon */
+    color: #F1999B; /* Change color for icon */
 }
 
 .service-card h3 {

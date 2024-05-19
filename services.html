@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="service.css" />
+  <style>
+    #mapImage {
+      display: none; /* Hidden by default */
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 80%;
+      max-height: 80%;
+      border: 2px solid #000;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+  </head>
+  
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="image/PregTrek(1).png" alt="" />
+      </div>
+      <ul>
+        <li class="item"><a href="index.html">Home</a></li>
+        <!-- <li class="item"><a href="#">Emergency</a></li> -->
+        <li class="item"><a href="services.html">Services</a></li>
+        <li class="item"><a href="about.html">About US</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="hero">
+        <h1>About Our Pregnancy Patient Management System</h1>
+        <p>Comprehensive care for expecting mothers.</p>
+      </section>
+      <h2><button id="emergencyButton">Emergency</button></h2>
+        <img id="mapImage" src="image/hospital.png" alt="Hospital Map">
+      <section class="content">
+        <h2>Medical Services</h2>
+        <div class="services">
+          <div class="service-card">
+            <i class="fas fa-user-md" style="font-size: 86px"></i>
+            <h3>Regular prenatal check-ups</h3>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-image" style="font-size: 86px"></i>
+            <h3>Ultrasound and imaging services</h3>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-apple-alt" style="font-size: 86px"></i>
+            <h3>Nutrition and wellness programs</h3>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-baby-carriage" style="font-size: 86px"></i>
+            <h3>Labor and delivery support</h3>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-heartbeat" style="font-size: 86px"></i>
+            <h3>Postnatal care and support</h3>
+          </div>
+        </div>
+      </section>
+         <section class="content">
+        <h2>Suggested Food</h2>
+        <main class="main">
+  <div class="cards">
+    <article class="card">
+      <div class="image">
+        <img src="https://assets.codepen.io/652/photo-1468777675496-5782faaea55b.jpeg" alt="mixed vegetable salad in a mason jar. ">
+      </div>
+      <div class="card__content">
+        <h2 class="card_title">Farmstand Salad</h2>
+        <p>Dig into the freshest veggies of the season! This salad-in-a-jar features a mixture of leafy greens and seasonal vegetables, fresh from the farmer's market.</p>
+        <p class="list-label">Served with your choice of dressing:</p>
+        <ul>
+          <li>Housemade ranch</li>
+          <li>Cherry balsamic vinaigrette</li>
+          <li>Creamy chipotle</li>
+          <li>Avocado green goddess</li>
+          <li>Honey mustard</li>
+        </ul>
+      </div>
+    </article>
+    
+    <article class="card">
+      <div class="image">
+        <img src="https://assets.codepen.io/652/photo-1520174691701-bc555a3404ca.jpeg" alt="a Reuben sandwich on wax paper. ">
+      </div>
+    
+      <div class="card__content">
+        <h2 class="card_title">Ultimate Reuben </h2>
+        <p>All great meals take time, but this one takes it to the next level. More than 650 hours of fermenting, brining, aging, and curing goes into each and every one of our legendary Reuben sandwiches.
+    </p>
+        <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the pickle. </p>
+
+        </div>
+    </article>
+    
+    <article class="card">
+      <div class="image">
+        <img src="https://assets.codepen.io/652/photo-1544510808-91bcbee1df55.jpeg" alt="A side view of a plate of figs and berries. ">
+
+        </div>
+      <div class="card__content">
+        <h2 class="card_title">Fig &amp; Berry Plate</h2>
+        <p>A succulent sextet of fresh figs join with a selection of bodacious seasonal berries in this refreshing, shareable dessert.</p>
+        <p class="list-label">Choose your drizzle:</p>
+        <ul>
+          <li>Cherry-balsamic vinegar</li>
+          <li>Local honey</li>
+          <li>Housemade chocolate sauce</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</main>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Pregnancy Patient Management. All rights reserved.</p>
+    </footer>
+  <script>
+       document.getElementById('emergencyButton').addEventListener('click', () => {
+      const mapImage = document.getElementById('mapImage');
+      mapImage.style.display = 'block';
+      emergencyButton.style.display = 'none';
+    });
+  </script>
+  </body>
+</html>
