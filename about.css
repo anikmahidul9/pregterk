@@ -13,35 +13,9 @@ h2 {
 }
 
 .intro h2 {
-    color: #F1999B; /* Change color for mission title */
+    color: #f1999b; /* Change color for mission title */
 }
 
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.service-card {
-    background-color: #f4f4f4;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 20px;
-    width: calc(33.33% - 20px); /* 3 columns with margin */
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.service-card i {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #F1999B; /* Change color for icon */
-}
-
-.service-card h3 {
-    color: #333;
-    font-size: 18px;
-}
 
 header {
     background-color: #007bff;
@@ -96,8 +70,9 @@ nav ul li a.active {
     margin-bottom: 1rem;
 }
 
-.content p, .content ul {
-    font-size: 1rem;
+.content p,
+.content ul {
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
@@ -130,4 +105,18 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
