@@ -13,11 +13,8 @@ h2 {
 }
 
 .intro h2 {
-    color: #f1999b; /* Change color for mission title */
+    color: #f1999b; 
 }
-
-
-
 
 
 .hero {
@@ -49,7 +46,7 @@ h2 {
 
 .content p,
 .content ul {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.6;
 }
 

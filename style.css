@@ -1,15 +1,15 @@
-/* CSS RESET */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-/* CSS variables */
+
 :root {
     --navbar-height: 59px;
 }
 
-/* Navigation Bar */
+
 #navbar {
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@
     background-color: #FAA0A0;
 }
 
-/* Home section */
+
 #home {
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@
     font-family: "Bree Serif", serif;
 }
 
-/* Services section */
+
 .services-container{
     margin-top: 120px;
 }
@@ -135,7 +135,7 @@
     font-family: "Bree Serif", serif;
 }
 
-/* Client section */
+
 #client-section {
     text-align: center;
     padding: 20px;
@@ -155,7 +155,7 @@
     height: 144px;
 }
 
-/* Contact section */
+
 #contact {
     position: relative;
     text-align: center;
@@ -226,7 +226,6 @@ footer {
     width: 100%;
 }
 
-/* Utility Classes */
 .h-primary {
     font-size: 3.8rem;
     padding: 12px;
@@ -273,16 +272,16 @@ h3{
     }
 
   #home {
-        padding: 50px 20px; /* Adjust padding for smaller screens */
+        padding: 50px 20px; 
     }
     .h-primary {
-        font-size: 1.5rem; /* Reduce font size for smaller screens */
+        font-size: 1.5rem; 
     }
    #home p{
         font-size: 1rem;
     }
     .btn-container {
-        text-align: center; /* Center button on smaller screens */
+        text-align: center; 
     }
 
     #clients{
